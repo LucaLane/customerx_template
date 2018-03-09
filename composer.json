@@ -1,5 +1,5 @@
 {
-  "name": "lane/customerx_template",
+  "name": "LucaLane/customerx-template",
   "description": "Extension for customer specific requirements.",
   "version": "2.0.1",
   "type": "typo3-cms-extension",
@@ -16,11 +16,11 @@
   ],
   "replace": {
     "customerx_template": "*",
-    "lane/customerx_template": "self.version"
+    "LucaLane/customerx_template": "self.version"
   },
   "autoload": {
     "psr-4": {
-      "Lane\\CustomerxTemplate\\": "Classes"
+      "LucaLane\\CustomerxTemplate\\": "Classes"
     }
   }
 }
