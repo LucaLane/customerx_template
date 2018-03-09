@@ -1,0 +1,30 @@
+{
+  "name": "Lane/customerx_template",
+  "description": "Extension for customer specific requirements.",
+  "version": "2.0.1",
+  "type": "typo3-cms-extension",
+  "license": ["GPL-2.0-or-later"],
+  "authors": [
+    {
+      "name": "Luca Aebischer",
+      "role": "Project Owner"
+    },
+    {
+      "name": "Luca Aebischer",
+      "role": "Developer"
+    }
+  ],
+  "replace": {
+    "customerx_template": "*",
+    "cabag/customerx_template": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "^8.7.0 || ^9.0",
+    "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "Lane\\CustomerxTemplate\\": "Classes"
+    }
+  }
+}

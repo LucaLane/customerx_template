@@ -1,0 +1,2 @@
+plugin.tx_powermailrecaptcha.sitekey = 6LecMEgUAAAAAMUgcXI1VEzFuOnVr4gec5JWlii3
+plugin.tx_powermailrecaptcha.secretkey = 6LecMEgUAAAAAIXdN2Yt_WocUXIcSjkgxgiarQC-
